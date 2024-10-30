@@ -4,7 +4,11 @@
     --footer-color: #9DA494;
     --font-color-dark: black;
     --font-color-light: white;
+    --padding-xs: 0.5rem;
     --padding-small: 1rem;
     --padding-medium: 2rem;
     --padding-large: 3rem;
+    --padding-xl: 4rem;
+    --border-radius: 0.4rem;
+    --button-color: #C2C2C280;
 }
