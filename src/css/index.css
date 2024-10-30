@@ -1,0 +1,19 @@
+.hero {
+    width: 100%;
+    display: flex;
+}
+
+.hero__image {
+    width: 80%;
+
+}
+
+.hero__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #49403C;
+    flex-grow: 1;
+    color: var(--font-color-light);
+}

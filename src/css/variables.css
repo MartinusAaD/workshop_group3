@@ -1,7 +1,9 @@
 :root {
     --background-color: #EAEBE0;
     --foreground-color: red;
+    --footer-color: #9DA494;
     --font-color-dark: black;
+    --font-color-light: white;
     --padding-small: 1rem;
     --padding-medium: 2rem;
     --padding-large: 3rem;
