@@ -2,9 +2,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/showcase.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <a href="../index.html"><h1 class="navbar__heading">RE-MOTORS</h1></a>
+            <div class="navbar__links">
+                <a class="navbar__models" href="../pages/showcase.html"><h3>Models</h3></a>
+                <a class="navbar__order" href="../pages/order.html"><h3>Order</h3></a>
+            </div>
+        </nav>
+    </header>
     <main>
         <section id="upper-display-section">
             <span class="display-text">
@@ -12,17 +26,47 @@
                 <p>Configurate your EivReza Velocity</p>
                 <p>Choose between Stellar White, Space Black or Cosmic Grey</p>
             </span>
-            <img class="display-img" src="assets/exterior1.png" alt="bilde av en hvit bil">
-            <img class="display-img" src="assets/exterior2.png" alt="bilde av en sort bil">
+            <img class="display-img" src="../assets/images/exterior1.png" alt="bilde av en hvit bil">
+            <img class="display-img" src="../assets/images/exterior2.png" alt="bilde av en sort bil">
         </section>
         <section id="lower-display-section">
-            <img class="display-img" src="assets/interior1.png" alt="bilde av en hvit bil">
-            <img class="display-img" src="assets/interior2.png" alt="bilde av en sort bil">            
+            <img class="display-img" src="../assets/images/interior1.png" alt="bilde av en hvit bil">
+            <img class="display-img" src="../assets/images/interior2.png" alt="bilde av en sort bil">            
             <span class="display-text">
                 <h3>Interior view</h3>
                 <p>First class leather and a remarkable attention to detail</p>
                 <p>Comfort at every stage</p>
             </span>
         </section>
+        
     </main>
+    <footer>
+
+        <div class="footer__container">
+            <div class="newsletter">
+                <h3 class="newsletter__heading">Newsletter</h3>
+                <p class="newsletter__paragraph">Subscribe to our newsletter to get the latest news from our team. </p>
+                <button class="newsletter__button">Subscribe</button>
+            </div>
+
+            <div class="support">
+                <h3 class="support__heading">Support</h3>
+                <p class="support__paragraph">Our award-winning customer service is available 24/7</p>
+                <p class="support__phonenumber">+888 987 789 999</p>
+            </div>
+
+            <div class="location">
+                <h3 class="location__heading">Visit our showroom</h3>
+                <div class="location__time">
+                    <p>Thursday - Sunday</p>
+                    <p>11:00 - 17:00</p>
+                </div>
+                <p class="location__address">Mont Gjuda 1109, San Fransisco</p>
+            </div>
+        </div>
+
+        <div class="footer__copyright">
+            <p>RE-MOTORS © 2024 </p>
+        </div>
+    </footer>
 </body>

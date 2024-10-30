@@ -4,9 +4,7 @@ main {
 
 .hero__container {
     display: flex;
-    justify-content: space-between;
-
-
+    justify-content: space-around;
 }
 
 .hero__car {
@@ -31,4 +29,8 @@ main {
     flex-direction: column;
     align-items: center;
     gap: var(--padding-xs);
+}
+
+.hero__specification-options > label {
+    padding-left: 1rem;
 }
