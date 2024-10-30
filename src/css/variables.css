@@ -1,0 +1,8 @@
+:root {
+    --background-color: #EAEBE0;
+    --foreground-color: red;
+    --font-color-dark: black;
+    --padding-small: 1rem;
+    --padding-medium: 2rem;
+    --padding-large: 3rem;
+}
