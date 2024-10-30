@@ -1,8 +1,11 @@
+header {
+    border-bottom: 1px solid black;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
     padding: var(--padding-medium);
 }
 
@@ -10,4 +13,20 @@
     display: flex;
     gap: 5rem;
     padding-right: var(--padding-large);
+}
+
+.navbar__models {
+    border-bottom: 3px solid transparent;
+}
+
+.navbar__models:hover {
+    border-bottom: 3px solid var(--font-color-dark);
+}
+
+.navbar__order {
+    border-bottom: 3px solid transparent;
+}
+
+.navbar__order:hover {
+    border-bottom: 3px solid var(--font-color-dark);
 }

@@ -32,6 +32,10 @@ footer {
     border-radius: var(--border-radius);
 }
 
+.newsletter__button:hover {
+    background-color: var(--button-color-hover);
+}
+
 .support {
     display: flex;
     flex-direction: column;
@@ -48,4 +52,9 @@ footer {
     gap: var(--padding-small);
     width: 30%;
     text-align: right;
+}
+
+.footer__copyright {
+    text-align: center;
+    padding-top: var(--padding-medium);
 }

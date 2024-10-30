@@ -16,4 +16,10 @@
     background-color: #49403C;
     flex-grow: 1;
     color: var(--font-color-light);
+    text-align: center;
+}
+
+.hero__description-line2 {
+    font-size: 1.5rem;
+    padding-top: var(--padding-medium);
 }

@@ -1,0 +1,24 @@
+#upper-display-section {
+    color: #ffffff;
+    background-color: #49403C;
+    height: 584px;
+    display: flex;
+    width: 100%;
+}
+
+#lower-display-section {
+    color: #000000;
+    background-color: #D2D8E1;
+    height: 584px;
+    display: flex;
+    width: 100%;
+    text-align: right;
+}
+
+.display-text {
+    margin: 5% 24px 5%;
+}
+
+.display-img {
+    height: 584px;
+}
