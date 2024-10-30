@@ -1,6 +1,4 @@
-header {
-    border-bottom: 1px solid black;
-}
+
 
 .navbar {
     display: flex;
@@ -15,11 +13,11 @@ header {
     padding-right: var(--padding-large);
 }
 
-.navbar__models {
+.navbar__display {
     border-bottom: 3px solid transparent;
 }
 
-.navbar__models:hover {
+.navbar__display:hover {
     border-bottom: 3px solid var(--font-color-dark);
 }
 

@@ -1,3 +1,7 @@
+header {
+    border-bottom: 1px solid black;
+}
+
 main {
     padding: var(--padding-large);
 }
@@ -5,6 +9,10 @@ main {
 .hero__container {
     display: flex;
     justify-content: space-around;
+}
+
+.hero__car-heading {
+    padding-bottom: var(--padding-medium);
 }
 
 .hero__car {
@@ -33,4 +41,33 @@ main {
 
 .hero__specification-options > label {
     padding-left: 1rem;
+}
+
+.hero__specification {
+    display: flex;
+    align-items: center;
+}
+
+.hero__summary {
+    padding-top: var(--padding-large);
+}
+
+.hero__summary-price {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding-small) 0;
+    border-bottom: 1px solid black;
+}
+
+.hero__summary-payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding-small) 0;
+    border-bottom: 1px solid black;
+}
+
+.hero__summary_payment-button {
+    background-color: transparent;
+    border: none;
 }

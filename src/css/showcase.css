@@ -19,6 +19,10 @@
     margin: 5% 24px 5%;
 }
 
+.display-text h3 {
+    padding-bottom: var(--padding-small);
+}
+
 .display-img {
     height: 584px;
 }

@@ -21,7 +21,7 @@
         <nav class="navbar">
             <a href="../index.html"><h1 class="navbar__heading">RE-MOTORS</h1></a>
             <div class="navbar__links">
-                <a class="navbar__models" href="../pages/showcase.html"><h3>Models</h3></a>
+                <a class="navbar__display" href="../pages/showcase.html"><h3>Display</h3></a>
                 <a class="navbar__order" href="../pages/order.html"><h3>Order</h3></a>
             </div>
         </nav>
@@ -32,7 +32,7 @@
     <main>
         <div class="hero__container">
             <div class="hero__car">
-                <h2>EivReza Velocity</h2>
+                <h2 class="hero__car-heading">EivReza Velocity</h2>
                 <img class="hero__car-image" src="../assets/images/car-top-view.png" alt="Picture of car top view">
             </div>
 
@@ -41,7 +41,7 @@
                     <label><h2>Engine</h2></label>
                     <div class="hero__specification-options">
                         <label>Electric: </label>
-                        <input type="radio" name="engine" value="electric">
+                        <input type="radio" name="engine" value="electric" required>
                         <label>Diesel: </label>
                         <input type="radio" name="engine" value="diesel">
                         <label>Petrol: </label>
@@ -55,7 +55,7 @@
                     <label><h2>Horsepower</h2></label>
                     <div class="hero__specification-options">
                         <label>350hp: </label>
-                        <input type="radio" name="horsepower" value="350hp">
+                        <input type="radio" name="horsepower" value="350hp" required>
                         <label>450hp: </label>
                         <input type="radio" name="horsepower" value="450hp">
                         <label>600hp: </label>
@@ -67,7 +67,7 @@
                     <label><h2>Transmission</h2></label>
                     <div class="hero__specification-options">
                         <label>Automatic: </label>
-                        <input type="radio" name="transmission" value="automatic">
+                        <input type="radio" name="transmission" value="automatic" required>
                         <label>Manual: </label>
                         <input type="radio" name="transmission" value="manual">
                     </div>
@@ -77,7 +77,7 @@
                     <label><h2>Color</h2></label>
                     <div class="hero__specification-options">
                         <label>Stellar White: </label>
-                        <input type="radio" name="color" value="stellarwhite">
+                        <input type="radio" name="color" value="stellarwhite" required>
                         <label>Space Black: </label>
                         <input type="radio" name="color" value="spaceblack">
                         <label>Cosmic Grey: </label>
@@ -89,7 +89,7 @@
                     <label><h2>Seat Materials</h2></label>
                     <div class="hero__specification-options">
                         <label>Leather: </label>
-                        <input type="radio" name="seatmaterial" value="leather">
+                        <input type="radio" name="seatmaterial" value="leather" required>
                         <label>Synthetic Leather: </label>
                         <input type="radio" name="seatmaterial" value="syntheticleather">
                     </div>
@@ -98,12 +98,12 @@
                 <div class="hero__summary">
                     <div class="hero__summary-price">
                         <p>Provisional price</p>
-                        <h3>112.000,-</h3>
+                        <h3><img src="../assets/icons/dollar_sign.svg" alt="">112.000,-</h3>
                     </div>
 
-                    <div class="hero_summary-payment">
+                    <div class="hero__summary-payment">
                         <p>Summary & Payment</p>
-                        <button><img src="../assets/icons/Arrow.svg" alt="Arrow icon"></button>
+                        <button class="hero__summary_payment-button"><img src="../assets/icons/Arrow.svg" alt="Arrow icon"></button>
                     </div>
                 </div>
 

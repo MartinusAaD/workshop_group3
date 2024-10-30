@@ -27,7 +27,7 @@ footer {
     padding: var(--padding-xs);
     background-color: var(--button-color);
     flex-grow: 0x;
-    width: 100px;
+    width: 150px;
     border: none;
     border-radius: var(--border-radius);
 }
